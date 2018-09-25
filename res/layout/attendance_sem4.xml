@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/sub8"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/choosingcircle" />
+
+    <ImageView
+        android:id="@+id/sub9"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/sub8"
+        android:layout_marginEnd="11dp"
+        android:layout_marginTop="153dp"
+        app:srcCompat="@drawable/choosingcircle" />
+
+    <ImageView
+        android:id="@+id/sub10"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/sub8"
+        android:layout_marginBottom="49dp"
+        app:srcCompat="@drawable/choosingcircle" />
+
+    <TextView
+        android:id="@+id/att_sub8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sub8"
+        android:layout_alignLeft="@+id/sub8"
+        android:layout_alignRight="@+id/sub8"
+        android:layout_alignTop="@+id/sub8"
+        android:gravity="center"
+        android:text="@string/sub8"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/att_sub9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sub9"
+        android:layout_alignLeft="@+id/sub9"
+        android:layout_alignRight="@+id/sub9"
+        android:layout_alignTop="@+id/sub9"
+        android:gravity="center"
+        android:text="@string/sub9"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/att_sub10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sub10"
+        android:layout_alignLeft="@+id/sub10"
+        android:layout_alignRight="@+id/sub10"
+        android:layout_alignTop="@+id/sub10"
+        android:gravity="center"
+        android:text="@string/sub10"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/skill2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/sub8"
+        android:layout_below="@+id/sub8"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/choosingcircle" />
+
+    <TextView
+        android:id="@+id/att_skill2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/skill2"
+        android:layout_alignLeft="@+id/skill2"
+        android:layout_alignRight="@+id/skill2"
+        android:layout_alignTop="@+id/skill2"
+        android:gravity="center"
+        android:text="@string/skill1"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+</RelativeLayout>

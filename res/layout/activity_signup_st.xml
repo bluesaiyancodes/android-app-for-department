@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <!--  Header Starts-->
+        <LinearLayout android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip">
+            <!-- Logo Start-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="158dp"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/fullcsdept" />
+            <!-- Logo Ends -->
+        </LinearLayout>
+        <!--  Header Ends -->
+
+
+
+        <!-- Login Form -->
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_below="@id/header">
+        <!--  Roll Label -->
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009CFF"
+            android:text="Roll Number"/>
+
+            <EditText
+                android:id="@+id/reg_roll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:hint="BS15001"
+                android:singleLine="true" />
+            <!--  semester Label -->
+            <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009CFF"
+            android:text="Semester"/>
+
+            <EditText
+                android:id="@+id/reg_semester"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:hint="6"
+                android:singleLine="true" />
+            <!--  name Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#009CFF"
+                android:text="Full Name"/>
+
+            <EditText
+                android:id="@+id/reg_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:hint="Satoshi Nakamoto"
+                android:singleLine="true" />
+            <!--  password Label -->
+            <TextView
+                android:textColor="#009CFF"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Password" />
+
+            <EditText
+                android:id="@+id/reg_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:hint="Be Creative"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+            <!--  phone Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#009CFF"
+                android:text="Phone Number"/>
+
+            <EditText
+                android:id="@+id/reg_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:hint="Your Whatsapp Number"
+                android:singleLine="true" />
+            <!--  email Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#009CFF"
+                android:text="E-mail"/>
+
+            <EditText
+                android:id="@+id/reg_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:hint="hello@gmail.com"
+                android:singleLine="true" />
+            <!--  Address Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#009CFF"
+                android:text="Permanent Address"/>
+
+            <EditText
+                android:id="@+id/reg_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:hint="plot, locality, city"
+                android:singleLine="true" />
+            <!--  Father's name Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#009CFF"
+                android:text="Father's Name"/>
+
+            <EditText
+                android:id="@+id/reg_father"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:hint="Mahatma Gandhi"
+                android:singleLine="true" />
+            <!--  Mother's name Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#009CFF"
+                android:text="Mother's Name"/>
+
+            <EditText
+                android:id="@+id/reg_mother"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:hint="Not Mummy"
+                android:singleLine="true" />
+            <!--  parent phone Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#009CFF"
+                android:text="Parent's Phone Number"/>
+
+            <EditText
+                android:id="@+id/reg_parentphone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:hint="Give correct number"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginLeft="100dip"
+                android:layout_marginRight="100dip"
+                android:layout_marginTop="30dip"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:text="Register" />
+        </LinearLayout>
+        <!-- Login Form Ends -->
+
+    </RelativeLayout>
+</ScrollView>

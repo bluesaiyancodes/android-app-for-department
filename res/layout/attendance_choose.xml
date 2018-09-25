@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/att_choose1"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/choosingcircle" />
+
+    <ImageView
+        android:id="@+id/att_choose2"
+        android:layout_width="150dip"
+        android:layout_height="150dip"
+        android:layout_below="@+id/att_choose1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        app:srcCompat="@drawable/choosingcircle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/att_choose1"
+        android:layout_alignBottom="@+id/att_choose1"
+        android:layout_alignRight="@+id/att_choose1"
+        android:layout_alignLeft="@+id/att_choose1"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:text="Take Attendance" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/att_choose2"
+        android:layout_alignBottom="@+id/att_choose2"
+        android:layout_alignRight="@+id/att_choose2"
+        android:layout_alignLeft="@+id/att_choose2"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:text="View" />
+</RelativeLayout>

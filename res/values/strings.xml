@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">CS Dept</string>
+    <string name="entrypage_name1">Students</string>>
+    <string name="entrypage_name2">Faculty</string>
+    <string name="collegename">College of Basic Science and Humanities, OUAT</string>
+    <string name="dept">Computer Science Department</string>
+    <string name="deptshort">CS Department</string>
+
+    <string name="sub1">Programming in C</string>
+    <string name="sub2">DBMS</string>
+    <string name="sub3">Operating Systems</string>
+    <string name="sub4">Programming using C++</string>
+    <string name="sub5">Data Structures</string>
+    <string name="sub6">Computer Architecture</string>
+    <string name="sub7">Java Programming</string>
+    <string name="skill1">HTML</string>
+    <string name="sub8">Discrete Structures</string>
+    <string name="sub9">Computer Networking</string>
+    <string name="sub10">Computer Graphics</string>
+    <string name="skill2">PhP</string>
+    <string name="sub11">Internet Technology</string>
+    <string name="sub12">Software Engineering</string>
+    <string name="sub13">Artificial Intelligence</string>
+    <string name="sub14">Design and Analysis of Algorithms</string>
+    <string name="sub_dis1">Machine Learning</string>
+    <string name="sub_dis2">Microprocessor</string>
+    <string name="sub_dis3">Data Mining</string>
+    <string name="sub_project">Project</string>
+
+
+
+
+    <string name="title_activity_faculty_navigation">FacultyNavigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Log Out</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="title_activity_syllabus_faculty">syllabusFaculty</string>
+    <string name="title_activity_signin">Sign in</string>
+
+
+    <string name="title_activity_student_navigation">StudentNavigation</string>
+
+
+</resources>

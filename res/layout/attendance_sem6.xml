@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/sub13"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/choosingcircle" />
+
+    <ImageView
+        android:id="@+id/sub14"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/sub13"
+        android:layout_marginStart="13dp"
+        app:srcCompat="@drawable/choosingcircle" />
+
+    <ImageView
+        android:id="@+id/sub_dis3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignEnd="@+id/sub13"
+        android:layout_below="@+id/sub13"
+        android:layout_marginTop="96dp"
+        app:srcCompat="@drawable/choosingcircle" />
+
+    <TextView
+        android:id="@+id/att_sub13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sub13"
+        android:layout_alignLeft="@+id/sub13"
+        android:layout_alignRight="@+id/sub13"
+        android:layout_alignTop="@+id/sub13"
+        android:gravity="center"
+        android:text="@string/sub13"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/att_sub14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sub14"
+        android:layout_alignLeft="@+id/sub14"
+        android:layout_alignRight="@+id/sub14"
+        android:layout_alignTop="@+id/sub14"
+        android:gravity="center"
+        android:text="@string/sub14"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/att_dis3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sub_dis3"
+        android:layout_alignLeft="@+id/sub_dis3"
+        android:layout_alignRight="@+id/sub_dis3"
+        android:layout_alignTop="@+id/sub_dis3"
+        android:gravity="center"
+        android:text="@string/sub_dis3"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+</RelativeLayout>

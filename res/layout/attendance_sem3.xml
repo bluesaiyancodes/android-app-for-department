@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/sub5"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignEnd="@+id/sub7"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/choosingcircle" />
+
+    <ImageView
+        android:id="@+id/sub6"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/sub5"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="176dp"
+        app:srcCompat="@drawable/choosingcircle" />
+
+    <ImageView
+        android:id="@+id/sub7"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="13dp"
+        app:srcCompat="@drawable/choosingcircle" />
+
+    <TextView
+        android:id="@+id/att_sub5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sub5"
+        android:layout_alignLeft="@+id/sub5"
+        android:layout_alignRight="@+id/sub5"
+        android:layout_alignTop="@+id/sub5"
+        android:gravity="center"
+        android:text="@string/sub5"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/att_sub6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sub6"
+        android:layout_alignLeft="@+id/sub6"
+        android:layout_alignRight="@+id/sub6"
+        android:layout_alignTop="@+id/sub6"
+        android:gravity="center"
+        android:text="@string/sub6"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/att_sub7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sub7"
+        android:layout_alignLeft="@+id/sub7"
+        android:layout_alignRight="@+id/sub7"
+        android:layout_alignTop="@+id/sub7"
+        android:gravity="center"
+        android:text="@string/sub7"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/skill1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/sub5"
+        android:layout_below="@+id/sub5"
+        android:layout_marginEnd="13dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/choosingcircle" />
+
+    <TextView
+        android:id="@+id/att_skill1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/skill1"
+        android:layout_alignLeft="@+id/skill1"
+        android:layout_alignRight="@+id/skill1"
+        android:layout_alignTop="@+id/skill1"
+        android:gravity="center"
+        android:text="@string/skill1"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+</RelativeLayout>

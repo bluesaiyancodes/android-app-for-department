@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="171dp"
+        android:src="@drawable/choosingcircle" />
+
+    <ImageView
+        android:id="@+id/pic_sem1"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_above="@+id/pic_sem2"
+        android:layout_marginBottom="69dp"
+        android:layout_toStartOf="@+id/pic_sem2"
+        android:src="@drawable/choosingcircle" />
+
+    <ImageView
+        android:id="@+id/pic_sem6"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_alignTop="@+id/pic_sem1"
+        android:layout_toEndOf="@+id/pic_sem5"
+        android:src="@drawable/choosingcircle" />
+
+    <ImageView
+        android:id="@+id/pic_sem2"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/pic_sem5"
+        android:layout_marginEnd="13dp"
+        android:src="@drawable/choosingcircle" />
+
+    <ImageView
+        android:id="@+id/pic_sem5"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_above="@+id/pic_sem4"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginStart="11dp"
+        android:src="@drawable/choosingcircle" />
+
+    <ImageView
+        android:id="@+id/pic_sem4"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_alignStart="@+id/pic_sem6"
+        android:layout_below="@+id/imageView"
+        android:src="@drawable/choosingcircle" />
+
+    <ImageView
+        android:id="@+id/pic_sem3"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_alignStart="@+id/pic_sem1"
+        android:layout_below="@+id/imageView"
+        android:src="@drawable/choosingcircle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:text="Select Semester" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pic_sem1"
+        android:layout_alignBottom="@+id/pic_sem1"
+        android:layout_alignRight="@+id/pic_sem1"
+        android:layout_alignLeft="@+id/pic_sem1"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="Sem 1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pic_sem2"
+        android:layout_alignBottom="@+id/pic_sem2"
+        android:layout_alignRight="@+id/pic_sem2"
+        android:layout_alignLeft="@+id/pic_sem2"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="Sem 2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pic_sem3"
+        android:layout_alignBottom="@+id/pic_sem3"
+        android:layout_alignRight="@+id/pic_sem3"
+        android:layout_alignLeft="@+id/pic_sem3"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="Sem 3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pic_sem4"
+        android:layout_alignBottom="@+id/pic_sem4"
+        android:layout_alignRight="@+id/pic_sem4"
+        android:layout_alignLeft="@+id/pic_sem4"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="Sem 4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pic_sem5"
+        android:layout_alignBottom="@+id/pic_sem5"
+        android:layout_alignRight="@+id/pic_sem5"
+        android:layout_alignLeft="@+id/pic_sem5"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="Sem 5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pic_sem6"
+        android:layout_alignBottom="@+id/pic_sem6"
+        android:layout_alignRight="@+id/pic_sem6"
+        android:layout_alignLeft="@+id/pic_sem6"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="Sem 6" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/fullcsdept" />
+</RelativeLayout>
